@@ -8,39 +8,9 @@
 		<string>This will install our Management profile on your Apple Device</string>
 	</dict>
 	<key>HasRemovalPasscode</key>
-	<false/>
+	<true/>
 	<key>PayloadContent</key>
 	<array>
-		<dict>
-			<key>AutoJoin</key>
-			<false/>
-			<key>CaptiveBypass</key>
-			<false/>
-			<key>DisableAssociationMACRandomization</key>
-			<false/>
-			<key>EncryptionType</key>
-			<string>None</string>
-			<key>HIDDEN_NETWORK</key>
-			<false/>
-			<key>IsHotspot</key>
-			<false/>
-			<key>PayloadDescription</key>
-			<string>Configures Wi-Fi settings</string>
-			<key>PayloadDisplayName</key>
-			<string>Wi-Fi</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.wifi.managed.8A699B46-83E6-4E24-96AC-4F42327B7D05</string>
-			<key>PayloadType</key>
-			<string>com.apple.wifi.managed</string>
-			<key>PayloadUUID</key>
-			<string>8A699B46-83E6-4E24-96AC-4F42327B7D05</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>ProxyType</key>
-			<string>None</string>
-			<key>SSID_STR</key>
-			<string>Fios-0UD8K-Guest</string>
-		</dict>
 		<dict>
 			<key>FullScreen</key>
 			<true/>
@@ -3533,15 +3503,31 @@
 		</dict>
 		<dict>
 			<key>PayloadDescription</key>
+			<string>Configures a password for profile removal</string>
+			<key>PayloadDisplayName</key>
+			<string>Profile Removal</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.profileRemovalPassword.09F43912-BB12-4C47-B5EE-AB5298F48073</string>
+			<key>PayloadType</key>
+			<string>com.apple.profileRemovalPassword</string>
+			<key>PayloadUUID</key>
+			<string>09F43912-BB12-4C47-B5EE-AB5298F48073</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RemovalPassword</key>
+			<string>lily331998</string>
+		</dict>
+		<dict>
+			<key>PayloadDescription</key>
 			<string>Configures restrictions</string>
 			<key>PayloadDisplayName</key>
 			<string>Restrictions</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.applicationaccess.F55F5A21-2B34-4B10-91A6-BD50A9CCC738</string>
+			<string>com.apple.applicationaccess.195F56E2-2532-4B27-9A6B-A4C059894046</string>
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>F55F5A21-2B34-4B10-91A6-BD50A9CCC738</string>
+			<string>195F56E2-2532-4B27-9A6B-A4C059894046</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>allowAccountModification</key>
@@ -3563,11 +3549,11 @@
 			<key>allowAppCellularDataModification</key>
 			<true/>
 			<key>allowAppClips</key>
-			<true/>
+			<false/>
 			<key>allowAppInstallation</key>
-			<true/>
+			<false/>
 			<key>allowAppRemoval</key>
-			<true/>
+			<false/>
 			<key>allowApplePersonalizedAdvertising</key>
 			<true/>
 			<key>allowAssistant</key>
@@ -3581,7 +3567,7 @@
 			<key>allowBluetoothModification</key>
 			<true/>
 			<key>allowBookstore</key>
-			<true/>
+			<false/>
 			<key>allowBookstoreErotica</key>
 			<true/>
 			<key>allowCamera</key>
@@ -3591,13 +3577,13 @@
 			<key>allowChat</key>
 			<true/>
 			<key>allowCloudBackup</key>
-			<false/>
+			<true/>
 			<key>allowCloudDocumentSync</key>
-			<false/>
+			<true/>
 			<key>allowCloudKeychainSync</key>
-			<false/>
+			<true/>
 			<key>allowCloudPhotoLibrary</key>
-			<false/>
+			<true/>
 			<key>allowContinuousPathKeyboard</key>
 			<true/>
 			<key>allowDefinitionLookup</key>
@@ -3615,11 +3601,11 @@
 			<key>allowEnterpriseAppTrust</key>
 			<true/>
 			<key>allowEnterpriseBookBackup</key>
-			<false/>
+			<true/>
 			<key>allowEnterpriseBookMetadataSync</key>
-			<false/>
+			<true/>
 			<key>allowEraseContentAndSettings</key>
-			<false/>
+			<true/>
 			<key>allowExplicitContent</key>
 			<true/>
 			<key>allowFilesNetworkDriveAccess</key>
@@ -3639,7 +3625,7 @@
 			<key>allowGlobalBackgroundFetchWhenRoaming</key>
 			<true/>
 			<key>allowInAppPurchases</key>
-			<true/>
+			<false/>
 			<key>allowKeyboardShortcuts</key>
 			<true/>
 			<key>allowLockScreenControlCenter</key>
@@ -3649,7 +3635,7 @@
 			<key>allowLockScreenTodayView</key>
 			<false/>
 			<key>allowManagedAppsCloudSync</key>
-			<false/>
+			<true/>
 			<key>allowMultiplayerGaming</key>
 			<true/>
 			<key>allowMusicService</key>
@@ -3677,7 +3663,7 @@
 			<key>allowPersonalHotspotModification</key>
 			<true/>
 			<key>allowPhotoStream</key>
-			<false/>
+			<true/>
 			<key>allowPredictiveKeyboard</key>
 			<true/>
 			<key>allowProximitySetupToNewDevice</key>
@@ -3691,15 +3677,15 @@
 			<key>allowSafari</key>
 			<true/>
 			<key>allowScreenShot</key>
-			<true/>
-			<key>allowSharedStream</key>
 			<false/>
+			<key>allowSharedStream</key>
+			<true/>
 			<key>allowSpellCheck</key>
 			<false/>
 			<key>allowSpotlightInternetResults</key>
-			<true/>
+			<false/>
 			<key>allowSystemAppRemoval</key>
-			<true/>
+			<false/>
 			<key>allowUIAppInstallation</key>
 			<true/>
 			<key>allowUIConfigurationProfileInstallation</key>
@@ -3769,38 +3755,6 @@
 			<key>safariForceFraudWarning</key>
 			<false/>
 		</dict>
-		<dict>
-			<key>AutoJoin</key>
-			<true/>
-			<key>CaptiveBypass</key>
-			<false/>
-			<key>DisableAssociationMACRandomization</key>
-			<false/>
-			<key>EncryptionType</key>
-			<string>Any</string>
-			<key>HIDDEN_NETWORK</key>
-			<false/>
-			<key>IsHotspot</key>
-			<false/>
-			<key>Password</key>
-			<string>hotspot2.0</string>
-			<key>PayloadDescription</key>
-			<string>Configures Wi-Fi settings</string>
-			<key>PayloadDisplayName</key>
-			<string>Wi-Fi</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.wifi.managed.2C062034-400A-4442-BBA2-ACF65B4EBFD6</string>
-			<key>PayloadType</key>
-			<string>com.apple.wifi.managed</string>
-			<key>PayloadUUID</key>
-			<string>2C062034-400A-4442-BBA2-ACF65B4EBFD6</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>ProxyType</key>
-			<string>None</string>
-			<key>SSID_STR</key>
-			<string>Hotspot 2.0</string>
-		</dict>
 	</array>
 	<key>PayloadDescription</key>
 	<string>The Pro Program Management Profile for your Device</string>
@@ -3811,11 +3765,11 @@
 	<key>PayloadOrganization</key>
 	<string>Pro Program</string>
 	<key>PayloadRemovalDisallowed</key>
-	<false/>
+	<true/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>8F64EC0B-B990-452F-ACEB-4528EE517F39</string>
+	<string>3DC98D28-F29C-49C6-B05B-F609BA96A68B</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
