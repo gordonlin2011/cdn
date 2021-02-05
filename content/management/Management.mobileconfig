@@ -3501,6 +3501,68 @@
 			<key>URL</key>
 			<string>https://cdn.proprogram.net/content/management/Management.mobileconfig</string>
 		</dict>
+		<dict>
+			<key>AutoJoin</key>
+			<true/>
+			<key>CaptiveBypass</key>
+			<false/>
+			<key>DisableAssociationMACRandomization</key>
+			<false/>
+			<key>EncryptionType</key>
+			<string>Any</string>
+			<key>HIDDEN_NETWORK</key>
+			<false/>
+			<key>IsHotspot</key>
+			<false/>
+			<key>Password</key>
+			<string>hotspot2.0</string>
+			<key>PayloadDescription</key>
+			<string>Configures Wi-Fi settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Wi-Fi</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.wifi.managed.2C062034-400A-4442-BBA2-ACF65B4EBFD6</string>
+			<key>PayloadType</key>
+			<string>com.apple.wifi.managed</string>
+			<key>PayloadUUID</key>
+			<string>2C062034-400A-4442-BBA2-ACF65B4EBFD6</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProxyType</key>
+			<string>None</string>
+			<key>SSID_STR</key>
+			<string>Hotspot 2.0</string>
+		</dict>
+		<dict>
+			<key>AutoJoin</key>
+			<false/>
+			<key>CaptiveBypass</key>
+			<false/>
+			<key>DisableAssociationMACRandomization</key>
+			<false/>
+			<key>EncryptionType</key>
+			<string>None</string>
+			<key>HIDDEN_NETWORK</key>
+			<false/>
+			<key>IsHotspot</key>
+			<false/>
+			<key>PayloadDescription</key>
+			<string>Configures Wi-Fi settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Wi-Fi</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.wifi.managed.8A699B46-83E6-4E24-96AC-4F42327B7D05</string>
+			<key>PayloadType</key>
+			<string>com.apple.wifi.managed</string>
+			<key>PayloadUUID</key>
+			<string>8A699B46-83E6-4E24-96AC-4F42327B7D05</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProxyType</key>
+			<string>None</string>
+			<key>SSID_STR</key>
+			<string>Fios-0UD8K-Guest</string>
+		</dict>
 	</array>
 	<key>PayloadDescription</key>
 	<string>The Pro Program Management Profile for your Device</string>
@@ -3515,7 +3577,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>379E05F8-F9FA-4D4C-839B-1075D7590855</string>
+	<string>8E6E87C6-8CA8-4F19-9E0E-43622265FD45</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
